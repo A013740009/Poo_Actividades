@@ -1,0 +1,70 @@
+A01379896 Erick Bautista Pérez
+A01374009 Hector David Hernandez
+
+
+int i = 3, j = 4, k = 5;
+float x = 34.5f, y = 12.25f;
+a.- //System.out.println((x + 1.5)/(250.0*(i/j))); Nota: Infinity, la operacion con los parentesis nos da un numero dividido sobre cero y es asi que nos queda infinito.
+
+b.- //System.out.println(x+1.5 / 250.0 * i /j); Nota: 34.5045
+
+c.- //System.out.println(­ ‐x * ­‐y * (i+j) / k); Nota: Tokens, en este caso tendrian que estar en parentesis para no dar error matematico ya que puede ser que sean negativos las variables "x" y "y".
+
+d.-//System.out.println( (i/ 5) *y); Nota: 0.0 Al dividir la parte de i con 5 solo quedara 0 y al multiplicar dara cero
+
+e.-//System.out.println(Math.min(i, Math.min(j, k))); Nota:3 La funcion de math.min() es obtener el valor mas cercano a 0 es decir el menor de los elegidos en este caso es el 3 ya que 4 > 3
+
+f.-//System.out.println(Math.exp(3,2)); Nota: The method exp(double) in the type Math is not applicable for the arguments (int, int). En este caso la funcion math.exp() recibe solo una variable de metodo numerico y se refiere al número represetando e^n, donde e es número de Euler y n es el argumento.
+
+g.-//System.out.println(y % x); Nota: 12.25 Una operacion con modulo 
+
+h.-//System.out.println(Math.pow(3, 2)); Nota: 9.0 La función  Math.pow() devuelve la  base elevada al exponente , esto es, base^exponente.
+
+i.-//System.out.println((int) y % k); Nota: 2 El modular de un valor flotante convertido en valor int
+
+j.-//System.out.println(i / 5 * y); Nota: 0.0 Inicia primero con el valor primordial que es la division y sigue con la multiplicacion.
+
+
+2. Determina la salida del codigo:
+
+System.out.println("The output is " + x + y); Nota: 12, tomando los valores pero no sumandolos en si.
+System.out.println("The output is " + (x + y));Nota: 3, sumando los valores gracias a la separacion del texto y los valores con parentesis.
+
+3.- Identifica intrucciones invalidas y explica por que son invalidas:
+
+----    q1.methodOne(); Tiene un error por que debe de llevar a cabo una variable como en la linea de arriba que sea valor int
+----    System.out.println(q1.methodTwo(12)); Tiene un eror que es lo contrario al otro metodo ya que no recibe valores int y esta clase regresa un 
+
+4.- La salida del programa es 3
+
+5.- La salida del programa es 6
+
+6.- 
+Package VentaCelulares
+public class telefonia {
+	private static final String[] = {“Telcel”, Iusacell} 
+		System.out.println(“Ahora eres ****“)
+}
+public class SistemaOperativo {
+	private static final String[] = {“Android”, “iOS”, “Windows phone”}
+		System.out.println(“De el sistema escogido tenemos estos equipos *******“)
+}
+
+Package Hospital
+public class empleados{
+	private static final String[] = {“doctores”, “staff”}
+		System.out.println("No existe")
+}
+public class doctores{
+	private static final String[] = {“doctor”, “especialista”, “internistas”}
+		System.out.println(" ListaDoctores, ListaEspecialistas, ListaInternistas“)
+}
+public class staff{
+	private static final String[] = {“enfermeras”, “limpieza”, “Recepcionistas”, “otros”}
+		System.out.println(" ListaEnfermeras, ListaLimpieza, ListaRecepcionistas“, Otros)
+}
+
+
+
+
+

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Racional
+comment0.text=\n\ Hector\ David\ Hernandez\ Rodriguez\n\ A01374009\n
+comment1.params=Numerador\ Denominador
+comment1.target=Racional(int,\ int)
+comment2.params=x
+comment2.target=void\ setNumerador(int)
+comment3.params=
+comment3.target=int\ getNumerador()
+comment4.params=y
+comment4.target=void\ setDenominador(int)
+comment5.params=
+comment5.target=int\ getDenominador()
+comment6.params=a\ b
+comment6.target=java.lang.String\ toString(int,\ int)
+numComments=7
